@@ -19,7 +19,7 @@ public class Hooks extends webconnector {
 
     @After
     public void after(Scenario scenario) {
-        //closeDriver(scenario);
+        closeDriver(scenario);
         System.out.println("** Ended execution of scenario : "+scenDesc+" **");
     }
 
